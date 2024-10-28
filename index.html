@@ -16,14 +16,37 @@
 
 <body class="relative">
    
-    <header>
-
+     <!-- header -->
+     <header class="container mx-auto px-4 lg:px-24 mt-6">
+        <nav class="flex justify-start items-center rounded-md gap-32">
+            <h3 class="lg:text-3xl text-2xl font-extrabold flex justify-center items-center  gap-0 p-0 m-0">
+                <span class="inline-flex items-center p-0 m-0">
+                    <img class="w-14 h-14 m-0 p-0 inline-block align-middle" src="./images/chillie.png" alt="">
+                </span>Chilli
+            </h3>
+            <div class="lg:flex hidden justify-center items-center gap-8">
+                <p class="text-base font-semibold">Menu</p>
+                <p class="text-base font-semibold">Card</p>
+                <p class="text-base font-semibold">Location</p>
+                <p class="text-base font-semibold">LogIn</p>
+                <p class="text-base font-semibold">Cards</p>
+                <button class="flex justify-center gap-2 items-center font-semibold px-3 py-2 rounded-lg text-lg"
+                    onclick="toggleCart()">
+                    <div class="relative">
+                        <i class="fa-solid fa-cart-shopping text-xl "></i>
+                        <p id="cart-count"
+                            class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                            0
+                        </p>
+                    </div>
+                </button>
+                <button class="text-base font-semibold bg-orange-500 text-white px-2 py-1 rounded ">Order Now</button>
+            </div>
+        </nav>
     </header>
 
 
-    <Main>
-
-    </Main>
+ 
 
 
 
